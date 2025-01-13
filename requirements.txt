@@ -1,0 +1,5 @@
+python 
+faker 
+kafka-python
+requests
+airflow

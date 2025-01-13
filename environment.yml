@@ -1,0 +1,15 @@
+name: data_streaming_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python
+  - pip
+  - pip:
+      - kafka-python
+      - requests 
+      - apache-airflow
+      - faker 
+  - conda:
+      - libprotobuf 
+      - libzlib 
